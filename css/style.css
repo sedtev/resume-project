@@ -24,3 +24,31 @@ img {
     width: 200px;
     height: 200px;
 }
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.photo-container {
+    margin-right: 30px;
+}
+
+.social-links h2 {
+    margin-top: 40px;
+}
+
+.links-container {
+    display: flex;
+}
+
+.links-container a {
+    margin-right: 15px;
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.links-container a:hover {
+    text-decoration: underline;
+    color: #23527c;
+}

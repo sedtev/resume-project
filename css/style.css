@@ -1,0 +1,26 @@
+body {
+  background-color: #f0f0f0; /* Слегка серый фон для всей страницы */
+  font-family: sans-serif;   /* Шрифт без засечек, более современный */
+}
+
+.resume-container {
+    width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+h1 {
+    color: #333333;
+}
+
+p {
+    color: #555555;
+}
+
+img {
+    max-width: 200px;
+    width: 200px;
+    height: 200px;
+}

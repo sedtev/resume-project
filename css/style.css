@@ -59,3 +59,9 @@ img {
     grid-template-columns: 2fr 1fr;
     gap: 30px;
 }
+
+@media (max-width: 768px) {
+    .main-layout{
+        grid-template-columns: 1fr;
+    }
+}

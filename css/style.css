@@ -65,3 +65,17 @@ img {
         grid-template-columns: 1fr;
     }
 }
+
+.dark-theme {
+    background-color: #333333;
+    color: #f0f0f0;
+}
+
+.dark-theme .resume-container {
+    background-color: #444444;
+    border-color: #666666;
+}
+
+.dark-theme h1, .dark-theme h2 {
+    color: #ffffff;
+}

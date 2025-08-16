@@ -61,4 +61,11 @@ if (mainTitle) {
     mainTitle.style.color = '#0056b3';
 }
 
-const themeButtonc
+const themeButton = document.querySelector('#theme-button');
+const bodyElement = document.querySelector('body');
+
+themeButton.addEventListener('click', changeTheme);
+function changeTheme() {
+    // Просто приводим имя в соответствие
+    bodyElement.classList.toggle('dark-theme');
+}
